@@ -1,0 +1,51 @@
+{
+  "expo": {
+    "name": "App Platform - UniApp",
+    "description": "app_description",
+    "slug": "uniexpoapp",
+    "privacy": "public",
+    "sdkVersion": "34.0.0",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "primaryColor": "#cccccc",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "extra": {
+      "firebaseMetaPath": "meta/"
+    },
+    "icon": "./assets/icons/app.png",
+    "loading": {
+      "icon": "./assets/icons/loading.png",
+      "hideExponentText": false
+    },
+    "packagerOpts": {
+      "assetExts": [
+        "ttf",
+        "mp4"
+      ]
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.mobidonia.tester",
+      "buildNumber": "5.1",
+      "infoPlist": {
+        "UIBackgroundModes": [
+          "audio"
+        ],
+        "NSCameraUsageDescription": "This app uses the camera to take photo for your profile image."
+      }
+     },
+     "android": {
+      "package": "com.mobidonia.tester",
+      "versionCode": 5
+    }
+    }
+    
+  }
